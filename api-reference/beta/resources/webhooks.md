@@ -29,6 +29,8 @@ Using the Microsoft Graph API, an app can subscribe to changes on the following 
 | [list][] under a SharePoint [site][] | `/sites/{id}/lists/{id}` | No |
 | Microsoft 365 group [conversation][] | Changes to a group's conversations:<br>`groups/{id}/conversations` | No |
 | Outlook [event][] | Changes to all events in a user's mailbox:<br>`/users/{id}/events` | Yes |
+
+
 | Outlook [message][] | Changes to all messages in a user's mailbox: <br>`/users/{id}/messages`<br>Changes to messages in a user's Inbox:<br>`/users/{id}/mailFolders('inbox')/messages` | Yes |
 | Outlook personal [contact][] | Changes to all personal contacts in a user's mailbox:<br>`/users/{id}/contacts` | Yes |
 | Security [alert][] | Changes to a specific alert:<br>`/security/alerts/{id}` <br>Changes to filtered alerts:<br> `/security/alerts/?$filter`| No |
@@ -37,7 +39,7 @@ Using the Microsoft Graph API, an app can subscribe to changes on the following 
 | Teams [chat][] | Changes to any chat in the tenant:<br>`/chats` <br>Changes to a specific chat:<br>`/chats/{id}` | Yes |
 | Teams [chatmessage][] | Changes to chat messages in all channels in all teams:<br>`/teams/getAllMessages` <br>Changes to chat messages in a specific channel:<br>`/teams/{id}/channels/{id}/messages`<br>Changes to chat messages in all chats:<br>`/chats/getAllMessages` <br>Changes to chat messages in a specific chat:<br>`/chats/{id}/messages`<br>Changes to chat messages in all chats a particular user is part of:<br>`/users/{id}/chats/getAllMessages` | Yes |
 | Teams [conversationMember][] | Changes to membership in a specific team:<br>`/teams/{id}/members` <br> Changes to membership in a specific chat:<br>`/chats/{id}/members` <br> Changes to membership in all chats:<br>`/chats/getAllMembers` <br> Changes to membership in all channels under a specific team:<br>`teams/{id}/channels/getAllMembers` | Yes |
-| Teams [onlineMeeting][] | Changes to an online meeting: <br>`/communications/onlinemeeting/{meeting-id}` | Yes |
+| Teams [onlineMeeting][] | Changes to an online meeting: <br>`/communications/onlineMeetings/?$filter=JoinWebUrl eq {joinWebUrl}` | Yes |
 | Teams [presence][] | Changes to a single user's presence: `/communications/presences/{id}` <br> Changes to multiple user presences:<br> `/communications/presences?$filter=id in ({id},{id}...)` | Yes |
 | Teams [team][] | Changes to any team in the tenant:<br>`/teams` <br>Changes to a specific team:<br>`/teams/{id}` | Yes |
 | To Do [baseTask][] (deprecated) | Changes to all task in a specific task list:<br>`/me/tasks/lists/{baseTaskListId}/tasks`<br>Changes to all tasks:<br>`/me/tasks/lists/alltasks` | No |
@@ -88,5 +90,5 @@ In general, subscription operations require read permission to the resource. For
 [baseTask]: ./baseTask.md
 [todoTask]: ./todotask.md
 [To Do task]: ./todotask.md
-[onlineMeeting]: ./onlinemeeting.md
+[onlineMeeting]: ../../../concepts/changenotifications-for-onlinemeeting.md 
 
