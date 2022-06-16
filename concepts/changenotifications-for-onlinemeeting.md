@@ -99,4 +99,4 @@ The following are the supported meeting events:
 ## See also
 - [Microsoft Graph change notifications](webhooks.md)
 - [Microsoft Teams API overview](teams-concept-overview.md)
-- [Online meeting resource](/graph/api/resources/onlinemeeting?view=graph-rest-beta)
+- [Online meeting resource](/graph/api/resources/onlinemeeting)
