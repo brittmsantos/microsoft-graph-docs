@@ -42,7 +42,7 @@ Content-Type: application/json
 ```
 
 ## JoinWebUrl
-The meeting join url can be found in the [onlineMeeting](/graph/api/resources/onlinemeeting?view=graph-rest-beta) resource's JoinWebUrl property or through the teams client for an arranged meeting.
+The meeting join url can be found in the [onlineMeeting](/graph/api/resources/onlinemeeting) resource's JoinWebUrl property or through the teams client for an arranged meeting.
 
 
 ## Notifications with encrypted resource data

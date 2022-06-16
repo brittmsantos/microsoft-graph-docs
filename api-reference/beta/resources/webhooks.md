@@ -29,8 +29,6 @@ Using the Microsoft Graph API, an app can subscribe to changes on the following 
 | [list][] under a SharePoint [site][] | `/sites/{id}/lists/{id}` | No |
 | Microsoft 365 group [conversation][] | Changes to a group's conversations:<br>`groups/{id}/conversations` | No |
 | Outlook [event][] | Changes to all events in a user's mailbox:<br>`/users/{id}/events` | Yes |
-
-
 | Outlook [message][] | Changes to all messages in a user's mailbox: <br>`/users/{id}/messages`<br>Changes to messages in a user's Inbox:<br>`/users/{id}/mailFolders('inbox')/messages` | Yes |
 | Outlook personal [contact][] | Changes to all personal contacts in a user's mailbox:<br>`/users/{id}/contacts` | Yes |
 | Security [alert][] | Changes to a specific alert:<br>`/security/alerts/{id}` <br>Changes to filtered alerts:<br> `/security/alerts/?$filter`| No |
