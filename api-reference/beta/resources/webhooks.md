@@ -90,5 +90,4 @@ In general, subscription operations require read permission to the resource. For
 [baseTask]: ./baseTask.md
 [todoTask]: ./todotask.md
 [To Do task]: ./todotask.md
-[onlineMeeting]: ../../../concepts/changenotifications-for-onlinemeeting.md 
-
+[onlineMeeting]: /concepts/changenotifications-for-onlinemeeting
