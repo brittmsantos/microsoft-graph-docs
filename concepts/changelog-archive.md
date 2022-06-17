@@ -54,15 +54,15 @@ This topic contains archived changelog entries for Microsoft Graph. For current 
 |Addition|beta|Added the [revokeLicenses](/graph/api/intune-onboarding-vpptoken-revokelicenses?view=graph-rest-beta) action on [vppToken](/graph/api/resources/intune-onboarding-vpptoken?view=graph-rest-beta) |
 |Addition|beta|Added the [getSuggestedEnrollmentLimit](/graph/api/intune-enrollment-devicemanagement-getsuggestedenrollmentlimit?view=graph-rest-beta) function on [deviceManagement](/graph/api/resources/intune-shared-devicemanagement?view=graph-rest-beta) |
 |Deletion|beta|Removed the [revokeLicenses](/graph/api/intune-onboarding-vpptoken-revokelicenses?view=graph-rest-beta) action on [vppToken](/graph/api/resources/intune-onboarding-vpptoken?view=graph-rest-beta) |
-|Addition|beta|Added the **requiredPasswordComplexity** property to the [androidCompliancePolicy](/graph/api/resources/intune-deviceconfig-androidcompliancepolicy?view=graph-rest-beta) entity|
+|Addition|beta|Added the **requiredPasswordComplexity** property to the [androidCompliancePolicy](/graph/api/resources/intune-deviceconfig-androidcompliancepolicy?view=graph-rest-beta&preserve-view=true) entity|
 |Addition|beta|Added the **personalProfileAppsAllowInstallFromUnknownSources**, **personalProfileCameraBlocked**, **personalProfileScreenCaptureBlocked**, **workProfilePasswordExpirationDays**, **workProfilePasswordMinimumLength**, **workProfilePasswordMinimumNumericCharacters**, **workProfilePasswordMinimumNonLetterCharacters**, **workProfilePasswordMinimumLetterCharacters**, **workProfilePasswordMinimumLowerCaseCharacters**, **workProfilePasswordMinimumUpperCaseCharacters**, **workProfilePasswordMinimumSymbolCharacters**, **workProfilePasswordPreviousPasswordCountToBlock**, **workProfilePasswordSignInFailureCountBeforeFactoryReset** and **workProfilePasswordRequiredType** properties to the [androidDeviceOwnerGeneralDeviceConfiguration](/graph/api/resources/intune-deviceconfig-androiddeviceownergeneraldeviceconfiguration?view=graph-rest-beta) entity|
-|Addition|beta|Added the **targetedMobileApps** and **microsoftTunnelSiteId** properties to the [androidDeviceOwnerVpnConfiguration](/graph/api/resources/intune-deviceconfig-androiddeviceownervpnconfiguration?view=graph-rest-beta) entity|
-|Addition|beta|Added the **requiredPasswordComplexity** property to the [androidGeneralDeviceConfiguration](/graph/api/resources/intune-deviceconfig-androidgeneraldeviceconfiguration?view=graph-rest-beta) entity|
+|Addition|beta|Added the **targetedMobileApps** and **microsoftTunnelSiteId** properties to the [androidDeviceOwnerVpnConfiguration](/graph/api/resources/intune-deviceconfig-androiddeviceownervpnconfiguration?view=graph-rest-beta&preserve-view=true) entity|
+|Addition|beta|Added the **requiredPasswordComplexity** property to the [androidGeneralDeviceConfiguration](/graph/api/resources/intune-deviceconfig-androidgeneraldeviceconfiguration?view=graph-rest-beta&preserve-view=true) entity|
 |Addition|beta|Added the **biometricAuthenticationBlocked** and **requiredAndroidSafetyNetEvaluationType** properties to the [androidManagedAppProtection](/graph/api/resources/intune-shared-androidmanagedappprotection?view=graph-rest-beta) entity|
-|Addition|beta|Added the **targetedMobileApps** and **microsoftTunnelSiteId** properties to the [androidWorkProfileVpnConfiguration](/graph/api/resources/intune-deviceconfig-androidworkprofilevpnconfiguration?view=graph-rest-beta) entity|
+|Addition|beta|Added the **targetedMobileApps** and **microsoftTunnelSiteId** properties to the [androidWorkProfileVpnConfiguration](/graph/api/resources/intune-deviceconfig-androidworkprofilevpnconfiguration?view=graph-rest-beta&preserve-view=true) entity|
 |Addition|beta|Added the **excludedDomains** and **disableOnDemandUserOverride** properties to the [appleVpnConfiguration](/graph/api/resources/intune-deviceconfig-applevpnconfiguration?view=graph-rest-beta) entity|
 |Addition|beta|Added the **biometricAuthenticationBlocked** and **requiredAndroidSafetyNetEvaluationType** properties to the [defaultManagedAppProtection](/graph/api/resources/intune-mam-defaultmanagedappprotection?view=graph-rest-beta) entity|
-|Addition|beta|Added the **windowsHomeSkuRestriction** property to the [deviceEnrollmentPlatformRestrictionsConfiguration](/graph/api/resources/intune-onboarding-deviceenrollmentplatformrestrictionsconfiguration?view=graph-rest-beta) entity|
+|Addition|beta|Added the **windowsHomeSkuRestriction** property to the [deviceEnrollmentPlatformRestrictionsConfiguration](/graph/api/resources/intune-onboarding-deviceenrollmentplatformrestrictionsconfiguration?view=graph-rest-beta&preserve-view=true) entity|
 |Addition|beta|Added the **admxSettingDefinitionId** property to the [groupPolicySettingMapping](/graph/api/resources/intune-gpanalyticsservice-grouppolicysettingmapping?view=graph-rest-beta) entity|
 |Addition|beta|Added the **disableClientTelemetry** property to the [intuneBrandingProfile](/graph/api/resources/intune-wip-intunebrandingprofile?view=graph-rest-beta) entity|
 |Addition|beta|Added the **perAppVPNProfileId** property to the [iosEasEmailProfileConfiguration](/graph/api/resources/intune-deviceconfig-ioseasemailprofileconfiguration?view=graph-rest-beta) entity|
@@ -557,36 +557,36 @@ Adding PSTN and direct routing call reports to Microsoft Graph (beta).
 | Addition | beta | Added [verifiedCustomDomainCertificatesMetadata](/graph/api/resources/verifiedcustomdomaincertificatesmetadata?view=graph-rest-beta) entity.|
 | Addition | beta | Added the [kerberosSignOnSettings](/graph/api/resources/kerberossignonsettings?view=graph-rest-beta) entity. |
 | Change | beta | Changed in the [onPremisesAgent](/graph/api/resources/onpremisesagent?view=graph-rest-beta),  [onPremisesAgentGroup](/graph/api/resources/onpremisesagentgroup?view=graph-rest-beta), and [publishedResource](/graph/api/resources/publishedresource?view=graph-rest-beta) entity the publishingType value from **appProxy** to **applicationProxy**. |
-| Addition | beta | Added the **isEnabled** property to the [onPremisesPublishingProfile](/graph/api/resources/onpremisespublishingprofile?view=graph-rest-beta) entity. |
-| Addition | beta | Added [connector](/graph/api/resources/connector?view=graph-rest-beta) and [connectorGroup](/graph/api/resources/connectorgroup?view=graph-rest-beta) as navigation property to the OnPremisesPublishingProfile entity. |
+| Addition | beta | Added the **isEnabled** property to the [onPremisesPublishingProfile](/graph/api/resources/onpremisespublishingprofile?view=graph-rest-beta&preserve-view=true) entity. |
+| Addition | beta | Added [connector](/graph/api/resources/connector?view=graph-rest-beta&preserve-view=true) and [connectorGroup](/graph/api/resources/connectorgroup?view=graph-rest-beta&preserve-view=true) as navigation property to the OnPremisesPublishingProfile entity. |
 | Addition | beta | Added the **onPremisesPublishing** property to [application](/graph/api/resources/application?view=graph-rest-beta entity. |
-| Addition | beta | Added the **OnPremisesPublishing** property to [Update Application](/graph/api/application-update?view=graph-rest-beta). |
-| Addition | beta | Added new resources [authenticationFlowsPolicy](/graph/api/resources/authenticationflowspolicy?view=graph-rest-beta) and [selfServiceSignUpAuthenticationFlowConfiguration](/graph/api/resources/selfservicesignupauthenticationflowconfiguration?view=graph-rest-beta) and [get](/graph/api/authenticationflowspolicy-get?view=graph-rest-beta) and [update](/graph/api/authenticationflowspolicy-update?view=graph-rest-beta) operations.|
+| Addition | beta | Added the **OnPremisesPublishing** property to [Update Application](/graph/api/application-update?view=graph-rest-beta&preserve-view=true). |
+| Addition | beta | Added new resources [authenticationFlowsPolicy](/graph/api/resources/authenticationflowspolicy?view=graph-rest-beta&preserve-view=true) and [selfServiceSignUpAuthenticationFlowConfiguration](/graph/api/resources/selfservicesignupauthenticationflowconfiguration?view=graph-rest-beta) and [get](/graph/api/authenticationflowspolicy-get?view=graph-rest-beta) and [update](/graph/api/authenticationflowspolicy-update?view=graph-rest-beta) operations.|
 | Addition | beta, v1.0 | Added support for application permissions to the [List conversations](/graph/api/group-list-conversations), [Get conversation](/graph/api/group-get-conversation), [List conversation threads](/graph/api/conversation-list-threads), [Get conversation thread](/graph/api/group-get-thread), and [List threads](/graph/api/group-list-threads) APIs. |
-|Addition |v1.0| Promoted the [riskyUsers API](/graph/api/resources/riskyuser?view=graph-rest-1.0) and the [riskDetection API](/graph/api/resources/riskdetection?view=graph-rest-1.0) to the v1.0 endpoint. |
-|Addition|beta|Added the [synchronizationJobApplicationParameters](/graph/api/resources/synchronization-synchronizationJobApplicationParameters?view=graph-rest-beta) resource type|
-|Addition|beta|Added the [synchronizationJobSubject](/graph/api/resources/synchronization-synchronizationJobSubject?view=graph-rest-beta) resource type|
-|Addition|beta|Added the [provisionOnDemand](/graph/api/synchronization-synchronizationjob-provision-on-demand?view=graph-rest-beta) method to the [synchronizationJob](/graph/api/resources/synchronization-synchronizationJob?view=graph-rest-beta) resource|
+|Addition |v1.0| Promoted the [riskyUsers API](/graph/api/resources/riskyuser?view=graph-rest-1.0&preserve-view=true) and the [riskDetection API](/graph/api/resources/riskdetection?view=graph-rest-1.0) to the v1.0 endpoint. |
+|Addition|beta|Added the [synchronizationJobApplicationParameters](/graph/api/resources/synchronization-synchronizationJobApplicationParameters?view=graph-rest-beta&preserve-view=true) resource type|
+|Addition|beta|Added the [synchronizationJobSubject](/graph/api/resources/synchronization-synchronizationJobSubject?view=graph-rest-beta&preserve-view=true) resource type|
+|Addition|beta|Added the [provisionOnDemand](/graph/api/synchronization-synchronizationjob-provision-on-demand?view=graph-rest-beta&preserve-view=true) method to the [synchronizationJob](/graph/api/resources/synchronization-synchronizationJob?view=graph-rest-beta) resource|
 
 ### Search
 
 | **Change type** | **Version** | **Description**                                                                                                                                 |
 |:----------------|:------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
 | Addition        | beta        | Added the **aliases**, **isRefinable**, and **labels** properties to the [property](/graph/api/resources/property?view=graph-rest-beta) entity. |
-| Changed         | beta        | The maximum number of properties on a [schema](/graph/api/resources/schema?view=graph-rest-beta) entity has been increased to 128.              |
-| Addition        | beta        | Added the [get externalItem](/graph/api/externalitem-get?view=graph-rest-beta) operation.                                                       |
+| Changed         | beta        | The maximum number of properties on a [schema](/graph/api/resources/schema?view=graph-rest-beta&preserve-view=true) entity has been increased to 128.              |
+| Addition        | beta        | Added the [get externalItem](/graph/api/externalitem-get?view=graph-rest-beta&preserve-view=true) operation.                                                       |
 
 
 ### Security
 
 | **Change type** | **Version**   | **Description**                          |
 | :-------------- | :------------ | :--------------------------------------- |
-|Addition | beta and v1.0 | Added the following properties to the [alert](/graph/api/resources/alert?view=graph-rest-1.0) entity:  **incidentIds**, [securityResources](/graph/api/resources/securityResource?view=graph-rest-1.0) - **resource**, **resourceType**,[networkConnection](/graph/api/resources/networkconnection?view=graph-rest-1.0) - **sourceLocation**, **destinationLocation**.|
+|Addition | beta and v1.0 | Added the following properties to the [alert](/graph/api/resources/alert?view=graph-rest-1.0&preserve-view=true) entity:  **incidentIds**, [securityResources](/graph/api/resources/securityResource?view=graph-rest-1.0) - **resource**, **resourceType**,[networkConnection](/graph/api/resources/networkconnection?view=graph-rest-1.0) - **sourceLocation**, **destinationLocation**.|
 
 ### Sites and lists
 | **Change type** | **Version**   | **Description**                          |
 | :-------------- | :------------ | :--------------------------------------- |
-| Addition | v1.0 | Added the [geolocationColumn](/graph/api/resources/geolocationcolumn?view=graph-rest-1.0) resource. The **geolocationColumn** resource applies to the [columnDefinition](/graph/api/resources/columnDefinition?view=graph-rest-1.0) resource. |
+| Addition | v1.0 | Added the [geolocationColumn](/graph/api/resources/geolocationcolumn?view=graph-rest-1.0&preserve-view=true) resource. The **geolocationColumn** resource applies to the [columnDefinition](/graph/api/resources/columnDefinition?view=graph-rest-1.0) resource. |
 
 ### Teamwork
 
@@ -594,9 +594,9 @@ Adding PSTN and direct routing call reports to Microsoft Graph (beta).
 | :-------------- | :---------- | :--------------------------------------- |
 | Addition | beta, v1.0 | Added new delegated permissions [AppCatalog.Read.All](./permissions-reference.md#appcatalog-resource-permissions), [ChatMessage.Send](./permissions-reference.md#chatmessage-permissions), [Teams.Create](./permissions-reference.md#teams-permissions), [TeamsAppInstallation.ReadForUser](./permissions-reference.md#Teams-app-installation-permissions), [TeamsAppInstallation.ReadWriteForUser](./permissions-reference.md#Teams-app-installation-permissions), [TeamsAppInstallation.ReadWriteSelfForUser](./permissions-reference.md#Teams-app-installation-permissions). |
 | Addition | beta, v1.0 | Added new application permissions [Teams.Create](./permissions-reference.md#teams-permissions), [TeamsAppInstallation.ReadForUser.All](./permissions-reference.md#Teams-app-installation-permissions), [TeamsAppInstallation.ReadWriteForUser.All](./permissions-reference.md#Teams-app-installation-permissions), [TeamsAppInstallation.ReadWriteSelfForUser.All](./permissions-reference.md#Teams-app-installation-permissions). |
-| Addition | beta, v1.0 | Added support for getting the [filesFolder](/graph/api/channel-get-filesfolder?view=graph-rest-1.0) of a [channel](/graph/api/resources/channel?view=graph-rest-1.0).|
-|Addition | beta, v1.0 | Added [primaryChannel](/graph/api/team-get-primarychannel?view=graph-rest-1.0) navigation property to [team](/graph/api/resources/team?view=graph-rest-1.0) resource type.|
-|Addition | beta | Added [members](/graph/api/team-post-members?view=graph-rest-beta) navigation property to [team](/graph/api/resources/team?view=graph-rest-beta) resource type, enabling members to be added with increased reliability and lower latency.|
+| Addition | beta, v1.0 | Added support for getting the [filesFolder](/graph/api/channel-get-filesfolder?view=graph-rest-1.0&preserve-view=true) of a [channel](/graph/api/resources/channel?view=graph-rest-1.0).|
+|Addition | beta, v1.0 | Added [primaryChannel](/graph/api/team-get-primarychannel?view=graph-rest-1.0&preserve-view=true) navigation property to [team](/graph/api/resources/team?view=graph-rest-1.0) resource type.|
+|Addition | beta | Added [members](/graph/api/team-post-members?view=graph-rest-beta&preserve-view=true) navigation property to [team](/graph/api/resources/team?view=graph-rest-beta) resource type, enabling members to be added with increased reliability and lower latency.|
 
 ### Users
 
@@ -607,9 +607,9 @@ Adding PSTN and direct routing call reports to Microsoft Graph (beta).
 | Addition | beta | Added the [regionalAndLanguageSettings-get](/graph/api/regionalandlanguagesettings-get) function on the [regionalAndLanguageSettings](/graph/api/resources/regionalandlanguagesettings) resource.|
 | Addition | beta | Added the [regionalAndLanguageSettings-update](/graph/api/regionalandlanguagesettings-update) function on the [regionalAndLanguageSettings](/graph/api/resources/regionalandlanguagesettings) resource.|
 | Change | beta | Added the [regionalAndLanguageSettings](/graph/resources/regionalandlanguagesettings) relationship to the [userSettings](/graph/api/resources/userSettings) resource.|
-| Change | beta | Updated [User](/graph/api/resources/user?view=graph-rest-beta) resource with clarification between [mailboxSettings](/graph/api/resources/mailboxsettings?view=graph-rest-beta) and [regionalAndLanguageSettings](/graph/api/resources/regionalandlanguagesettings).|
-|Addition | Beta | Added the new **userPurpose** property to [mailboxSettings](/graph/api/resources/mailboxsettings?view=graph-rest-beta). See [userPurpose resource type](/graph/api/resources/userPurpose?view=graph-rest-beta) for information on the supported use cases.|
-|Addition | Beta | Added new [userPurpose](/graph/api/resources/userPurpose?view=graph-rest-beta) complex type.|
+| Change | beta | Updated [User](/graph/api/resources/user?view=graph-rest-beta&preserve-view=true) resource with clarification between [mailboxSettings](/graph/api/resources/mailboxsettings?view=graph-rest-beta) and [regionalAndLanguageSettings](/graph/api/resources/regionalandlanguagesettings).|
+|Addition | Beta | Added the new **userPurpose** property to [mailboxSettings](/graph/api/resources/mailboxsettings?view=graph-rest-beta&preserve-view=true). See [userPurpose resource type](/graph/api/resources/userPurpose?view=graph-rest-beta) for information on the supported use cases.|
+|Addition | Beta | Added new [userPurpose](/graph/api/resources/userPurpose?view=graph-rest-beta&preserve-view=true) complex type.|
 
 ### Devices and apps | Cloud printing
 
@@ -624,13 +624,13 @@ Adding PSTN and direct routing call reports to Microsoft Graph (beta).
 
 | **Change type** | **Version**   | **Description**                          |
 | :-------------- | :------------ | :--------------------------------------- |
-|Addition | v1.0 | Places API available in v1. Added the [place](/graph/api/resources/place?view=graph-rest-1.0), [room](/graph/api/resources/room?view=graph-rest-1.0), [roomList](/graph/api/resources/room?view=graph-rest-1.0) resources and their methods to provide rich details for locations in apps. |
+|Addition | v1.0 | Places API available in v1. Added the [place](/graph/api/resources/place?view=graph-rest-1.0&preserve-view=true), [room](/graph/api/resources/room?view=graph-rest-1.0), [roomList](/graph/api/resources/room?view=graph-rest-1.0) resources and their methods to provide rich details for locations in apps. |
 
 ### Change notifications
 
 | **Change type** | **Version** | **Description**                          |
 | :-------------- | :---------- | :--------------------------------------- |
-| Addition | beta | Added the [changeNotification](/graph/api/resources/changenotification?view=graph-rest-beta), [changeNotificationCollection](/graph/api/resources/changenotificationcollection?view=graph-rest-beta), and [changeNotificationEncryptedContent](/graph/api/resources/changenotificationencryptedcontent?view=graph-rest-beta) resources for the [change notification](/graph/api/concepts/webhooks) API. |
+| Addition | beta | Added the [changeNotification](/graph/api/resources/changenotification?view=graph-rest-beta&preserve-view=true), [changeNotificationCollection](/graph/api/resources/changenotificationcollection?view=graph-rest-beta), and [changeNotificationEncryptedContent](/graph/api/resources/changenotificationencryptedcontent?view=graph-rest-beta) resources for the [change notification](/graph/api/concepts/webhooks) API. |
 | Addition | v1.0 | Added support for [subscription](/graph/api/resources/subscription) in [Microsoft Cloud for US Government](deployments.md). |
 
 
@@ -640,13 +640,13 @@ Added new APIs and resources for subscribing to and retrieving call records from
 
 | **Change type** | **Version**   | **Description**                          |
 |:---|:---|:---|
-| Addition | v1.0 | Added [Get callRecord](/graph/api/callrecords-callrecord-get?view=graph-rest-1.0) API.|
-| Addition | v1.0 | Added new entities:<br /><li>[callRecord](/graph/api/resources/callrecords-callrecord?view=graph-rest-1.0)</li> <li>[session](/graph/api/resources/callrecords-session?view=graph-rest-1.0)</li> <li>[segment](/graph/api/resources/callrecords-segment?view=graph-rest-1.0)</li>|
-| Addition | v1.0 | Added new complex types:<br /><li>[endpoint](/graph/api/resources/callrecords-endpoint?view=graph-rest-1.0)</li> <li>[participantEndpoint](/graph/api/resources/callrecords-participantendpoint?view=graph-rest-1.0)</li> <li>[serviceEndpoint](/graph/api/resources/callrecords-serviceendpoint?view=graph-rest-1.0)</li> <li>[userAgent](/graph/api/resources/callrecords-useragent?view=graph-rest-1.0)</li> <li>[serviceUserAgent](/graph/api/resources/callrecords-serviceuseragent?view=graph-rest-1.0)</li> <li>[clientUserAgent](/graph/api/resources/callrecords-clientuseragent?view=graph-rest-1.0)</li> <li>[userfeedback](/graph/api/resources/callrecords-userfeedback?view=graph-rest-1.0)</li> <li>[feedbackTokenSet](/graph/api/resources/callrecords-feedbacktokenset?view=graph-rest-1.0)</li> <li>[media](/graph/api/resources/callrecords-media?view=graph-rest-1.0)</li> <li>[mediaStream](/graph/api/resources/callrecords-mediastream?view=graph-rest-1.0)</li> <li>[networkInfo](/graph/api/resources/callrecords-networkinfo?view=graph-rest-1.0)</li> <li>[deviceInfo](/graph/api/resources/callrecords-deviceinfo?view=graph-rest-1.0)</li> <li>[failureInfo](/graph/api/resources/callrecords-failureinfo?view=graph-rest-1.0)</li> |
+| Addition | v1.0 | Added [Get callRecord](/graph/api/callrecords-callrecord-get?view=graph-rest-1.0&preserve-view=true) API.|
+| Addition | v1.0 | Added new entities:<br /><li>[callRecord](/graph/api/resources/callrecords-callrecord?view=graph-rest-1.0&preserve-view=true)</li> <li>[session](/graph/api/resources/callrecords-session?view=graph-rest-1.0)</li> <li>[segment](/graph/api/resources/callrecords-segment?view=graph-rest-1.0)</li>|
+| Addition | v1.0 | Added new complex types:<br /><li>[endpoint](/graph/api/resources/callrecords-endpoint?view=graph-rest-1.0&preserve-view=true)</li> <li>[participantEndpoint](/graph/api/resources/callrecords-participantendpoint?view=graph-rest-1.0)</li> <li>[serviceEndpoint](/graph/api/resources/callrecords-serviceendpoint?view=graph-rest-1.0)</li> <li>[userAgent](/graph/api/resources/callrecords-useragent?view=graph-rest-1.0)</li> <li>[serviceUserAgent](/graph/api/resources/callrecords-serviceuseragent?view=graph-rest-1.0)</li> <li>[clientUserAgent](/graph/api/resources/callrecords-clientuseragent?view=graph-rest-1.0)</li> <li>[userfeedback](/graph/api/resources/callrecords-userfeedback?view=graph-rest-1.0)</li> <li>[feedbackTokenSet](/graph/api/resources/callrecords-feedbacktokenset?view=graph-rest-1.0)</li> <li>[media](/graph/api/resources/callrecords-media?view=graph-rest-1.0)</li> <li>[mediaStream](/graph/api/resources/callrecords-mediastream?view=graph-rest-1.0)</li> <li>[networkInfo](/graph/api/resources/callrecords-networkinfo?view=graph-rest-1.0)</li> <li>[deviceInfo](/graph/api/resources/callrecords-deviceinfo?view=graph-rest-1.0)</li> <li>[failureInfo](/graph/api/resources/callrecords-failureinfo?view=graph-rest-1.0)</li> |
 | Addition | v1.0 | Added support for [webhook](webhooks.md) subscriptions to call records.|
 | Change | v1.0 | Added `frequency60GHz` and `unknownFutureValue` to the **microsoft.graph.callRecords.wifiBand** enum.|
 | Change | v1.0 | Added `voicemail` to the **microsoft.graph.callRecords.serviceRole** enum.|
-| Addition | v1.0 | Added the [List sessions](/graph/api/callrecords-session-list?view=graph-rest-beta) API. |
+| Addition | v1.0 | Added the [List sessions](/graph/api/callrecords-session-list?view=graph-rest-beta&preserve-view=true) API. |
 
 ### Devices and apps | Cloud printing
 
